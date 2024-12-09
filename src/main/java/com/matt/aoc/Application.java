@@ -6,7 +6,7 @@ import com.matt.aoc.solvers.*;
 public class Application {
 
     public static void main(String[] args) {
-        String answer = SolverHelper.applySolver("day8.txt", new Day8Solver(true));
+        String answer = SolverHelper.applySolver("day9.txt", new Day9Solver(true));
         System.out.println(answer);
     }
 }
